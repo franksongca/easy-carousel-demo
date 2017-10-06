@@ -26,3 +26,16 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+# Install easy-carousel
+
+1. npm install easy-carousel --save
+2. update app.module.ts
+  2-1. import { EasyCarouselModule } from 'easy-carousel/build/easy-carousel.module'
+  2-2. Put EasyCarouselModule.forRoot() in imports   
+    imports: [
+      ...,
+      EasyCarouselModule.forRoot()
+    ],
+

@@ -1,0 +1,22 @@
+.demo-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.demo {
+  margin-bottom: 10px;
+}
+
+.demo-desc {
+  height: 120px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(150, 100, 100, 0.2);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  overflow: auto;
+}
