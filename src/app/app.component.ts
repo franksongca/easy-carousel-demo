@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { Json2html } from './json2html';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -133,10 +133,10 @@ export class AppComponent {
       "desc": "gray"
     }
   };
-  demo1Desc = JSON.stringify(this.demo1CarouselInfo);
+  demo1Desc = JSON.stringify(this.demo1CarouselInfo, null, 2);
 
   demo2CarouselInfo = {
-    "maxWidth": 1200,
+    "maxWidth": 930,
     "ratioHW": 0.65,
     "itemsInOneScreen": 3,
     "animationDuration": 1.5,
@@ -268,6 +268,10 @@ export class AppComponent {
 
   onCarouse2Demo1Selected(carouselItemId) {
     alert('Demo 2 carousel item ' + carouselItemId + ' selected!');
+  }
+
+  constructor(private json2html: Json2html) {
+
   }
 
 }

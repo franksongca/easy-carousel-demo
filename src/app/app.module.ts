@@ -11,7 +11,9 @@ import { AppComponent } from './app.component';
     BrowserModule,
     EasyCarouselModule.forRoot()
   ],
-  providers: [],
+  providers: [
+    Json2html
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
