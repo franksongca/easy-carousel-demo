@@ -9,14 +9,14 @@
   <div class="denm-content">
     <div class="demo">
       <div class="demo-desc" [ngStyle]="{'max-width': demo1CarouselInfo.maxWidth + 'px'}">
-        {{demo1Desc}}
+        <textarea [(ngModel)]="demo1Desc" (change)="changed()"></textarea>
       </div>
       <easy-carousel [carouselInfo]="demo1CarouselInfo" (onNotifyCarouselSelected)="onCarouselDemo1Selected($event)"></easy-carousel>
     </div><br><br>
 
     <div class="demo">
       <div class="demo-desc" [ngStyle]="{'max-width': demo2CarouselInfo.maxWidth + 'px'}">
-        {{demo2Desc}}
+        <textarea [(ngModel)]="demo2Desc"></textarea>
       </div>
       <easy-carousel [carouselInfo]="demo2CarouselInfo" (onNotifyCarouselSelected)="onCarouselDemo2Selected($event)"></easy-carousel>
     </div>
