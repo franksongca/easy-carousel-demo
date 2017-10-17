@@ -10,6 +10,7 @@ export class AppComponent {
 
   // TODO: need to convert JSON to html: https://www.w3schools.com/js/js_json_html.asp
   demo1CarouselInfo = {
+    "looping": true,
     "maxWidth": 900,
     "ratioHW": 0.75,
     "itemsInOneScreen": 2,
