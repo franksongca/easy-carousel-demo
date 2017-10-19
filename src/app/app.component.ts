@@ -26,7 +26,7 @@ export class AppComponent {
       {
         "id": 1,
         "img": "./assets/img/carousel/1.jpg",
-        "selectedImg": "./assets/img/carousel/16.jpg",
+        "selectedImg": "./assets/img/carousel/15.jpg",
         "name": "NAME 1",
         "desc": "desc 1",
         "details": "details 1"
@@ -238,7 +238,7 @@ export class AppComponent {
       "padding": 20,
       "backgroundColorRGBA": "rgba(200, 250, 250, 0.8)",
       "selectedItemOutlineColor": "white",
-      "selectedItemOutlineWidth": "3",
+      "selectedItemOutlineWidth": 3,
       "nameColor": "black",
       "descColor": "darkgray",
       "detailsColor": "#333",
