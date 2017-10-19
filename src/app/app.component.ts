@@ -23,14 +23,23 @@ export class AppComponent {
     },
     "trnsactionEffect": "ease-in-out",
     "items": [
-      {"id": 1, "img": "./assets/img/carousel/1.jpg", "name": "NAME 1", "desc": "desc 1"},
+      {
+        "id": 1,
+        "img": "./assets/img/carousel/1.jpg",
+        "selectedImg": "./assets/img/carousel/16.jpg",
+        "name": "NAME 1",
+        "desc": "desc 1",
+        "details": "details 1"
+      },
       {
         "items": [
           {
             "id": 2,
             "img": "./assets/img/carousel/2-1.jpg",
+            "selectedImg": "./assets/img/carousel/4.jpg",
             "name": "NAME 2-1",
             "desc": "desc 2-1",
+            "details": "details 2-1",
             "sizeRatio": {
               "width": 0.5,
               "height": 1
@@ -45,6 +54,7 @@ export class AppComponent {
             "img": "./assets/img/carousel/4.jpg",
             "name": "NAME 2-2",
             "desc": "desc 2-2",
+            "details": "details 2-2",
             "sizeRatio": {
               "width": 0.5,
               "height": 0.5
@@ -59,6 +69,7 @@ export class AppComponent {
             "img": "./assets/img/carousel/10.jpg",
             "name": "NAME 2-3",
             "desc": "desc 2-3",
+            "details": "details 2-3",
             "sizeRatio": {
               "width": 0.5,
               "height": 0.5
@@ -70,15 +81,70 @@ export class AppComponent {
           }
         ]
       },
-      {"id": 4,"img": "./assets/img/carousel/4.jpg", "name": "NAME 4", "desc": "desc 4"},
-      {"id": 5,"img": "./assets/img/carousel/5.jpg", "name": "NAME 5", "desc": "desc 5"},
-      {"id": 6,"img": "./assets/img/carousel/6.jpg", "name": "NAME 6", "desc": "desc 6"},
-      {"id": 7,"img": "./assets/img/carousel/7.jpg", "name": "NAME 7", "desc": "desc 7"},
-      {"id": 8,"img": "./assets/img/carousel/8.jpg", "name": "NAME 8", "desc": "desc 8"},
-      {"id": 9,"img": "./assets/img/carousel/9.jpg", "name": "NAME 9", "desc": "desc 9"},
-      {"id": 10,"img": "./assets/img/carousel/10.jpg", "name": "NAME 10", "desc": "desc 10"},
-      {"id": 11,"img": "./assets/img/carousel/11.jpg", "name": "NAME 11", "desc": "desc 11"},
-      {"id": 12,"img": "./assets/img/carousel/12.jpg", "name": "NAME 12", "desc": "desc 12"},
+      {
+        "id": 4,
+        "img": "./assets/img/carousel/4.jpg",
+        "name": "NAME 4",
+        "selectedImg": "./assets/img/carousel/6.jpg",
+        "desc": "desc 4",
+        "details": "details 4"
+      },
+      {
+        "id": 5,
+        "img": "./assets/img/carousel/5.jpg",
+        "name": "NAME 5",
+        "desc": "desc 5",
+        "details": "details 5"
+      },
+      {
+        "id": 6,
+        "img": "./assets/img/carousel/6.jpg",
+        "name": "NAME 6",
+        "desc": "desc 6",
+        "details": "details 6"
+      },
+      {
+        "id": 7,
+        "img": "./assets/img/carousel/7.jpg",
+        "name": "NAME 7",
+        "desc": "desc 7",
+        "details": "details 7"
+      },
+      {
+        "id": 8,
+        "img": "./assets/img/carousel/8.jpg",
+        "name": "NAME 8",
+        "desc": "desc 8",
+        "details": "details 8"
+      },
+      {
+        "id": 9,
+        "img": "./assets/img/carousel/9.jpg",
+        "name": "NAME 9",
+        "desc": "desc 9",
+        "details": "details 9"
+      },
+      {
+        "id": 10,
+        "img": "./assets/img/carousel/10.jpg",
+        "name": "NAME 10",
+        "desc": "desc 10",
+        "details": "details 10"
+      },
+      {
+        "id": 11,
+        "img": "./assets/img/carousel/11.jpg",
+        "name": "NAME 11",
+        "desc": "desc 11",
+        "details": "details 11"
+      },
+      {
+        "id": 12,
+        "img": "./assets/img/carousel/12.jpg",
+        "name": "NAME 12",
+        "desc": "desc 12",
+        "details": "details 12"
+      },
       {
         "items": [
           {
@@ -90,6 +156,7 @@ export class AppComponent {
               "width": 0.5,
               "height": 0.5
             },
+            "details": "details 13-1",
             "positionRatio": {
               "x": 0,
               "y": 0
@@ -100,6 +167,7 @@ export class AppComponent {
             "img": "./assets/img/carousel/10.jpg",
             "name": "NAME 13-2",
             "desc": "desc 13-2",
+            "details": "details 13-2",
             "sizeRatio": {
               "width": 0.5,
               "height": 0.5
@@ -114,6 +182,7 @@ export class AppComponent {
             "img": "./assets/img/carousel/2-2.jpg",
             "name": "NAME 13-3",
             "desc": "desc 13-3",
+            "details": "details 13-3",
             "sizeRatio": {
               "width": 1,
               "height": 1
@@ -125,9 +194,27 @@ export class AppComponent {
           }
         ]
       },
-      {"id": 16,"img": "./assets/img/carousel/13.jpg", "name": "NAME 16", "desc": "desc 16"},
-      {"id": 17,"img": "./assets/img/carousel/14.jpg", "name": "NAME 17", "desc": "desc 17"},
-      {"id": 18,"img": "./assets/img/carousel/15.jpg", "name": "NAME 18", "desc": "desc 18"}
+      {
+        "id": 16,
+        "img": "./assets/img/carousel/13.jpg",
+        "name": "NAME 16",
+        "desc": "desc 16",
+        "details": "details 16"
+      },
+      {
+        "id": 17,
+        "img": "./assets/img/carousel/14.jpg",
+        "name": "NAME 17",
+        "desc": "desc 17",
+        "details": "details 17"
+      },
+      {
+        "id": 18,
+        "img": "./assets/img/carousel/15.jpg",
+        "name": "NAME 18",
+        "desc": "desc 18",
+        "details": "details 18"
+      }
     ],
     "carouselItemInfo": {
       "nameColor": "white",
@@ -146,6 +233,20 @@ export class AppComponent {
       "nameFontFamily": "",
       "descFontFamily": "",
       "itemOutlineWidth": 1
+    },
+    "selectedItemInfo": {
+      "padding": 20,
+      "backgroundColorRGBA": "rgba(200, 250, 250, 0.8)",
+      "selectedItemOutlineColor": "white",
+      "selectedItemOutlineWidth": "3",
+      "nameColor": "black",
+      "descColor": "darkgray",
+      "detailsColor": "#333",
+      "minFontSize": 10,
+      "maxFontSize": 30,
+      "nameFontFamily": "",
+      "descFontFamily": "",
+      "detailsFontFamily": ""
     }
   };
   demo1Desc = '{\r\n  "maxWidth": 1200,\r\n  "ratioHW": 0.65,\r\n  "itemsInOneScreen": 3,\r\n  "animationDuration": 1.5,\r\n  "itemOutlineColor": "white",\r\n  "autoPlay": {\r\n    "enable": true,\r\n    "delay": 2000,\r\n    "duration": 2000\r\n  },\r\n  "trnsactionEffect": "ease-in",\r\n  "items": [\r\n    {\r\n      "id": 1,\r\n      "img": "./assets/img/carousel/1.jpg",\r\n      "name": "NAME 1",\r\n      "desc": "desc 1"\r\n    },\r\n    {\r\n      "items": [\r\n        {\r\n          "id": 2,\r\n          "img": "./assets/img/carousel/2-1.jpg",\r\n          "name": "NAME 2-1",\r\n          "desc": "desc 2-1",\r\n          "sizeRatio": {\r\n            "width": 0.5,\r\n            "height": 1\r\n          },\r\n          "positionRatio": {\r\n            "x": 0,\r\n            "y": 0\r\n          }\r\n        },\r\n        {\r\n          "id": 3,\r\n          "img": "./assets/img/carousel/4.jpg",\r\n          "name": "NAME 2-2",\r\n          "desc": "desc 2-2",\r\n          "sizeRatio": {\r\n            "width": 0.5,\r\n            "height": 0.5\r\n          },\r\n          "positionRatio": {\r\n            "x": 0.5,\r\n            "y": 0\r\n          }\r\n        },\r\n        {\r\n          "id": 17,\r\n          "img": "./assets/img/carousel/10.jpg",\r\n          "name": "NAME 2-3",\r\n          "desc": "desc 2-3",\r\n          "sizeRatio": {\r\n            "width": 0.5,\r\n            "height": 0.5\r\n          },\r\n          "positionRatio": {\r\n            "x": 0.5,\r\n            "y": 0.5\r\n          }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      "id": 4,\r\n      "img": "./assets/img/carousel/4.jpg",\r\n      "name": "NAME 4",\r\n      "desc": "desc 4"\r\n    },\r\n    {\r\n      "id": 5,\r\n      "img": "./assets/img/carousel/5.jpg",\r\n      "name": "NAME 5",\r\n      "desc": "desc 5"\r\n    },\r\n    {\r\n      "id": 6,\r\n      "img": "./assets/img/carousel/6.jpg",\r\n      "name": "NAME 6",\r\n      "desc": "desc 6"\r\n    },\r\n    {\r\n      "id": 7,\r\n      "img": "./assets/img/carousel/7.jpg",\r\n      "name": "NAME 7",\r\n      "desc": "desc 7"\r\n    },\r\n    {\r\n      "id": 8,\r\n      "img": "./assets/img/carousel/8.jpg",\r\n      "name": "NAME 8",\r\n      "desc": "desc 8"\r\n    },\r\n    {\r\n      "id": 9,\r\n      "img": "./assets/img/carousel/9.jpg",\r\n      "name": "NAME 9",\r\n      "desc": "desc 9"\r\n    },\r\n    {\r\n      "id": 10,\r\n      "img": "./assets/img/carousel/10.jpg",\r\n      "name": "NAME 10",\r\n      "desc": "desc 10"\r\n    },\r\n    {\r\n      "id": 11,\r\n      "img": "./assets/img/carousel/11.jpg",\r\n      "name": "NAME 11",\r\n      "desc": "desc 11"\r\n    },\r\n    {\r\n      "id": 12,\r\n      "img": "./assets/img/carousel/12.jpg",\r\n      "name": "NAME 12",\r\n      "desc": "desc 12"\r\n    },\r\n    {\r\n      "items": [\r\n        {\r\n          "id": 13,\r\n          "img": "./assets/img/carousel/4.jpg",\r\n          "name": "NAME 13-1",\r\n          "desc": "desc 13-1",\r\n          "sizeRatio": {\r\n            "width": 0.5,\r\n            "height": 0.5\r\n          },\r\n          "positionRatio": {\r\n            "x": 0,\r\n            "y": 0\r\n          }\r\n        },\r\n        {\r\n          "id": 14,\r\n          "img": "./assets/img/carousel/10.jpg",\r\n          "name": "NAME 13-2",\r\n          "desc": "desc 13-2",\r\n          "sizeRatio": {\r\n            "width": 0.5,\r\n            "height": 0.5\r\n          },\r\n          "positionRatio": {\r\n            "x": 0,\r\n            "y": 0.5\r\n          }\r\n        },\r\n        {\r\n          "id": 15,\r\n          "img": "./assets/img/carousel/2-2.jpg",\r\n          "name": "NAME 13-3",\r\n          "desc": "desc 13-3",\r\n          "sizeRatio": {\r\n            "width": 1,\r\n            "height": 1\r\n          },\r\n          "positionRatio": {\r\n            "x": 0.5,\r\n            "y": 0\r\n          }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      "id": 16,\r\n      "img": "./assets/img/carousel/13.jpg",\r\n      "name": "NAME 16",\r\n      "desc": "desc 16"\r\n    },\r\n    {\r\n      "id": 17,\r\n      "img": "./assets/img/carousel/14.jpg",\r\n      "name": "NAME 17",\r\n      "desc": "desc 17"\r\n    },\r\n    {\r\n      "id": 18,\r\n      "img": "./assets/img/carousel/15.jpg",\r\n      "name": "NAME 18",\r\n      "desc": "desc 18"\r\n    }\r\n  ],\r\n  "carouselItemColor": {\r\n    "name": "white",\r\n    "desc": "white"\r\n  }\r\n}\r\n';
