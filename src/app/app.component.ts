@@ -236,7 +236,7 @@ export class AppComponent {
     },
     "selectedItemInfo": {
       "padding": 20,
-      "backgroundColorRGBA": "rgba(200, 250, 250, 0.8)",
+      "backgroundColorRGBA": "rgba(90, 150, 150, 0.8)",
       "selectedItemOutlineColor": "white",
       "selectedItemOutlineWidth": 3,
       "nameColor": "black",
