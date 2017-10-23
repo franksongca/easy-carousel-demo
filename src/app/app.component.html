@@ -8,7 +8,7 @@
 <div class="demo-container">
   <div class="denm-content">
     <div class="demo">
-      <div class="demo-desc" [ngStyle]="{'max-width': demo1CarouselInfo.maxWidth + 'px'}">
+      <div class="demo-desc" [ngStyle]="{'max-width': '1200px'}">
         <textarea [(ngModel)]="demo1Desc" (change)="changed()"></textarea>
       </div>
       <easy-carousel [carouselInfo]="demo1CarouselInfo" (onNotifyCarouselSelected)="onCarouselDemo1Selected($event)"></easy-carousel>
